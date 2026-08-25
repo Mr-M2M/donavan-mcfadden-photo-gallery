@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Secondary activity layout: enlarged image view -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ImageDetailActivity">
+
+    <ImageView
+        android:id="@+id/imageFullView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/detail_title"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@id/textCaption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marchers_green_dark"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/marchers_gold_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Marching drumline — where the discipline started" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

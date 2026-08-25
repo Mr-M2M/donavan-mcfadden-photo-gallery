@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme used by the Gallery and Detail activities (action bar visible) -->
+    <style name="Theme.PhotoGallery" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/marchers_green</item>
+        <item name="colorPrimaryDark">@color/marchers_green_dark</item>
+        <item name="colorAccent">@color/marchers_gold</item>
+        <item name="android:statusBarColor">@color/marchers_green_dark</item>
+        <item name="android:windowBackground">@color/off_white</item>
+        <item name="actionBarStyle">@style/PhotoGallery.ActionBar</item>
+    </style>
+
+    <style name="PhotoGallery.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/marchers_green</item>
+        <item name="titleTextStyle">@style/PhotoGallery.ActionBar.Title</item>
+    </style>
+
+    <style name="PhotoGallery.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/marchers_gold_light</item>
+    </style>
+
+    <!-- Splash theme: full screen, no action bar -->
+    <style name="Theme.PhotoGallery.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/marchers_green_dark</item>
+        <item name="android:statusBarColor">@color/marchers_green_dark</item>
+    </style>
+
+</resources>

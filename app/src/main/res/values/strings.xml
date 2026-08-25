@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Donavan McFadden - Photo Gallery</string>
+    <string name="splash_name">Donavan McFadden</string>
+    <string name="splash_title">My Photo Gallery</string>
+    <string name="splash_tagline">Marchers Only \u2022 You Are Meant For More</string>
+    <string name="gallery_title">Donavan McFadden - Photo Gallery</string>
+    <string name="detail_title">Enlarged View</string>
+
+    <string name="img_1_desc">Marching drumline — where the discipline started</string>
+    <string name="img_2_desc">Family — the reason for the mission</string>
+    <string name="img_3_desc">New home listing — Creed Realty</string>
+    <string name="img_4_desc">City skyline — vision for growth</string>
+    <string name="img_5_desc">Closing day handshake</string>
+    <string name="img_6_desc">Sunrise on the open road — You Are Meant For More</string>
+</resources>

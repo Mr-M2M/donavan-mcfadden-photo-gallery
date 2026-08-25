@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main activity layout: 6 thumbnails in a 2-column x 3-row grid -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    tools:context=".GalleryActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="12dp"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:id="@+id/imageThumb1"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_1_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_marching" />
+
+        <ImageView
+            android:id="@+id/imageThumb2"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_2_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_family" />
+
+        <ImageView
+            android:id="@+id/imageThumb3"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_3_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_new_home" />
+
+        <ImageView
+            android:id="@+id/imageThumb4"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_4_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_skyline" />
+
+        <ImageView
+            android:id="@+id/imageThumb5"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_5_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_closing_day" />
+
+        <ImageView
+            android:id="@+id/imageThumb6"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/img_6_desc"
+            android:onClick="onThumbnailClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo_sunrise_road" />
+
+    </GridLayout>
+
+</ScrollView>
